@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <Button
+        android:text="解析JSON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myClick"/>
+    <Button
+        android:text="Fast-json解析JSON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myClick_2"/>
+    <Button
+        android:text="JSON序列化"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myClick_3"/>
+
+
+</LinearLayout>
